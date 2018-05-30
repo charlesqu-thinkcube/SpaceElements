@@ -45,7 +45,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 63
+  controlID: 9
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -64,8 +64,8 @@ MonoBehaviour:
     y: 0
     width: 387
     height: 924
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -209,7 +209,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 64
+  controlID: 10
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -233,7 +233,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 65
+  controlID: 11
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -297,19 +297,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scenes
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Tabitha\OneDrive\games production\games-production\2plusoneGame\2plusone
+  m_LastProjectPath: C:\Users\Tabitha\OneDrive\SpaceElementals\2plusone
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 0a2a0000
-    m_LastClickedID: 10762
-    m_ExpandedIDs: 000000008629000000ca9a3bffffff7f
+    m_SelectedIDs: 92290000
+    m_LastClickedID: 10642
+    m_ExpandedIDs: 0000000092290000bc290000082a000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -337,7 +337,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000086290000
+    m_ExpandedIDs: 0000000092290000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -381,7 +381,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 5}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -453,9 +453,9 @@ MonoBehaviour:
     height: 538
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ae290000
+    m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 40edffff10f5ffff00000000
+    m_ExpandedIDs: 7890fcfff492fcffb89afcffcea0fcff56a1fcffdea1fcff7ed2fcff06d3fcff78d4fcff12d9fcff98d9fcff20dafcffa8dafcff30dbfcff0edefcff94defcff30e0fcffb6e0fcff3ce1fcffc2e1fcff48e2fcffd0e2fcff2c0dfdff8839fdff984cfdffb251fdff3055fdff8c56fdff6a5bfdff945efdff3262fdff3c64fdff9a65fdff7666fdff5c67fdff2668fdff2069fdffee69fdffaa49feff5c4bfeffd84bfeff884dfeff044efeffbc4ffeff3850feffb450feff3251feffb051feff2c52feffaa52feff2853feffa453feff2054feff9e54feff1c55feff9855feff5470feffd070feff4e71feffcc71feff4872feffc472feff3873feff2874feff947cfeff127dfeff907dfeff0e7efeff9a85feff1886feff9686feff1487feff9487feff1288feff9088feff0e89feff8c89feff42b8feff14bafeff90bafeff0cbbfeff88bbfeff04bcfeff80bcfefffcbcfeff78bdfefff4bdfeff70befeffecbefeff68bffeffaec1feff54c3feff32c5feffaec5feffdac6feff1cc8feff98c8feffd0cdfeff4ccefeffc6cefeff42cffeffbecffeff3ad0feffb6d0feff32d1feffaed1feff2ad2feffa6d2feff22d3feff9ed3feff1ad4feff44d7feffc2d7feff40d8feffbed8fefffe4bffff20e7ffff98e7ffff10e8ffff88e8ffff00e9ffff50ebffff08eeffff7eeefffff8eeffff72efffffeaefffff0cf1ffff86f1ffff00f2ffff7af2ffffe8f2ffff58f4ffff10f5ffff00000000222f000002380000f83800000e3b0000aa4200002c440000ce440000bc4500005e460000c2460000fe4f0000aa550000a0580000745e00001e6600002c6700003a680000c6680000207100009a7100000e7200008872000078730000f2730000e274000064750000e0780000707f00002888000082890000cc8d00002a8f0000aaaa000064ad0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -471,10 +471,10 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 0
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 4}
     m_SearchString: 
   m_ExpandedScenes:
-  - Game
+  - Menu
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -505,14 +505,14 @@ MonoBehaviour:
     width: 1138
     height: 538
   m_SceneLighting: 0
-  lastFramingTime: 0
+  lastFramingTime: 1286.4212521404356
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 160.21071, y: 82.098076, z: 0}
+    m_Target: {x: 371.0594, y: 266.71594, z: -10}
     speed: 2
-    m_Value: {x: 160.21071, y: 82.098076, z: 0}
+    m_Value: {x: 371.0594, y: 266.71594, z: -10}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -539,9 +539,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 689.62054
+    m_Target: 560.42645
     speed: 2
-    m_Value: 689.62054
+    m_Value: 560.42645
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -581,13 +581,13 @@ MonoBehaviour:
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
   m_Stats: 0
-  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_SelectedSizes: 01000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_TargetDisplay: 0
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
-    m_HBaseRangeMin: -569
-    m_HBaseRangeMax: 569
+    m_HBaseRangeMin: -325.625
+    m_HBaseRangeMax: 325.625
     m_VBaseRangeMin: -260.5
     m_VBaseRangeMax: 260.5
     m_HAllowExceedBaseRangeMin: 1

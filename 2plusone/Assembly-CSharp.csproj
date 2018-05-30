@@ -47,6 +47,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\AudioTransition.cs" />
+     <Compile Include="Assets\Scripts\BackButton1.cs" />
+     <Compile Include="Assets\Scripts\BackButton2.cs" />
+     <Compile Include="Assets\Scripts\BackButton3.cs" />
      <Compile Include="Assets\Scripts\EnemyShotScripts\shotScriptAir.cs" />
      <Compile Include="Assets\Scripts\EnemyShotScripts\shotScriptEarth.cs" />
      <Compile Include="Assets\Scripts\EnemyShotScripts\shotScriptFire.cs" />
@@ -55,6 +58,11 @@
      <Compile Include="Assets\Scripts\GameplayController.cs" />
      <Compile Include="Assets\Scripts\InstructionsButton.cs" />
      <Compile Include="Assets\Scripts\Lives.cs" />
+     <Compile Include="Assets\Scripts\MenuButton.cs" />
+     <Compile Include="Assets\Scripts\MyUnitySingleton.cs" />
+     <Compile Include="Assets\Scripts\NextButton1.cs" />
+     <Compile Include="Assets\Scripts\NextButton2.cs" />
+     <Compile Include="Assets\Scripts\NextButton3.cs" />
      <Compile Include="Assets\Scripts\PlayButton.cs" />
      <Compile Include="Assets\Scripts\Touchable.cs" />
      <Compile Include="Assets\Scripts\buttonSound.cs" />
@@ -64,7 +72,7 @@
      <Compile Include="Assets\Scripts\playerScript.cs" />
      <Compile Include="Assets\Scripts\shieldScript.cs" />
  <Reference Include="Facebook.Unity.Settings">
- <HintPath>C:/Users/Tabitha/OneDrive/games production/games-production/2plusoneGame/2plusone/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+ <HintPath>C:/Users/Tabitha/OneDrive/SpaceElementals/2plusone/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Games/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

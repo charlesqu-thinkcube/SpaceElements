@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Lives : MonoBehaviour {
 
-    playerScript e;
+    public playerScript e;
 	// Use this for initialization
 	void Start () {
         e.heart1.gameObject.SetActive(true);

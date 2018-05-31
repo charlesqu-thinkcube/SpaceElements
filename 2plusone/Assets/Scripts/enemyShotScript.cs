@@ -38,14 +38,17 @@ public class enemyShotScript : MonoBehaviour {
     void OnTriggerEnter2D(Collider2D other)
     {
         playerScript ply = other.gameObject.GetComponent<playerScript>();
-
+        if (ply == null)
+        {
+            return;
+        }
         if (!ply.invincible)
         {
             if (other.gameObject.tag == "Player")
             {
                 ply.TakeHit();
                 //Destroy(other.gameObject);
-                //Destroy(this.gameObject);
+                Destroy(this.gameObject);
             }
         }
     }

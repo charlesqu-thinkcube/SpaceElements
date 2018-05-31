@@ -6,15 +6,19 @@ public class AudioTransition : MonoBehaviour
 {
 	
 	public AudioSource audio;
-	static bool AudioBegin = false; 
+	static AudioTransition AudioT; 
  	void Awake()
  	{
-    	if (!AudioBegin) 
+    	if (AudioT == null) 
     	{
         	audio.Play ();
         	DontDestroyOnLoad (gameObject);
-        	AudioBegin = true;
-       	} 
+            AudioT = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
      }
  	void Update () 
  	{

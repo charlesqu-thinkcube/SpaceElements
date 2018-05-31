@@ -6,7 +6,8 @@ using UnityEngine.UI;
 
 public class playerScript : MonoBehaviour {
 
-	private GameObject bullet;
+    public static playerScript Instance;
+    public GameObject bullet;
 	public GameObject bulletWater;
 	public GameObject bulletFire;
 	public GameObject bulletAir;
@@ -14,7 +15,7 @@ public class playerScript : MonoBehaviour {
 	//public GameObject spaceship;
 	private Rigidbody2D spaceship;
     public GameObject heart1, heart2, heart3, gameOver;
-    public int health;
+    public int health = 3;
     public Animator animDie;
     public bool invincible;
     //var r2d = GetComponent<Rigidbody2D>();
@@ -22,9 +23,14 @@ public class playerScript : MonoBehaviour {
     void Start () {
         invincible = false;
 	}
-	//reference - www.lessmilk.com/tutorial/space-shooter-unity-1
-	// Update is called once per frame
-	void Update () {
+
+    private void Awake()
+    {
+        Instance = this;
+    }
+    //reference - www.lessmilk.com/tutorial/space-shooter-unity-1
+    // Update is called once per frame
+    void Update () {
 		//spaceship.GetComponent<Rigidbody2D>();
 
 		spaceship = gameObject.GetComponent<Rigidbody2D>();
@@ -78,6 +84,7 @@ public class playerScript : MonoBehaviour {
 		if (Input.GetKeyDown(KeyCode.Space))
 		{
 			Instantiate(bullet, transform.position, Quaternion.identity);
+            Spawner.Instance.nextBullet();
 		}
 
 		if (transform.position.x <= -5.9f)

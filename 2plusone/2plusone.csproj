@@ -313,6 +313,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\AudioTransition.cs" />
+    <Compile Include="Assets\Scripts\BackButton1.cs" />
+    <Compile Include="Assets\Scripts\BackButton2.cs" />
+    <Compile Include="Assets\Scripts\BackButton3.cs" />
     <Compile Include="Assets\Scripts\buttonSound.cs" />
     <Compile Include="Assets\Scripts\enemyScript.cs" />
     <Compile Include="Assets\Scripts\enemyShotScript.cs" />
@@ -324,10 +327,16 @@
     <Compile Include="Assets\Scripts\GameplayController.cs" />
     <Compile Include="Assets\Scripts\InstructionsButton.cs" />
     <Compile Include="Assets\Scripts\Lives.cs" />
+    <Compile Include="Assets\Scripts\MenuButton.cs" />
     <Compile Include="Assets\Scripts\mousePointer.cs" />
+    <Compile Include="Assets\Scripts\MyUnitySingleton.cs" />
+    <Compile Include="Assets\Scripts\NextButton1.cs" />
+    <Compile Include="Assets\Scripts\NextButton2.cs" />
+    <Compile Include="Assets\Scripts\NextButton3.cs" />
     <Compile Include="Assets\Scripts\PlayButton.cs" />
     <Compile Include="Assets\Scripts\playerScript.cs" />
     <Compile Include="Assets\Scripts\shieldScript.cs" />
+    <Compile Include="Assets\Scripts\Spawner.cs" />
     <Compile Include="Assets\Scripts\Touchable.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

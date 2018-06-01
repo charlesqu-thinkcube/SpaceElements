@@ -19,7 +19,7 @@ public class TimerScript : MonoBehaviour {
 		timeLeft -= Time.deltaTime;
      	if(timeLeft < 0)
       	{
-			SceneManager.LoadScene("GameOver");
+			playerScript.Instance.GameOverScene("GameOver");
       	}
       	timerText.text = ((int)timeLeft).ToString();
    	}

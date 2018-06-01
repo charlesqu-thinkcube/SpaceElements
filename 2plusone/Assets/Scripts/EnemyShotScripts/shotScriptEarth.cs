@@ -35,7 +35,7 @@ public class shotScriptEarth : MonoBehaviour {
 	//destroys any object that is not player when hit
 	void OnTriggerEnter2D(Collider2D other)
 	{
-		if (other.tag == "EarthEnemy")
+		if (other.CompareTag("EarthEnemy"))
 		{
 			Destroy(other.gameObject);
 			Destroy(gameObject);

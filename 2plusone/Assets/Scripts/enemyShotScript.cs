@@ -54,7 +54,7 @@ public class enemyShotScript : MonoBehaviour {
         }
         if (!ply.invincible)
         {
-            if (other.gameObject.tag == "Player")
+            if (other.gameObject.CompareTag("player"))
             {
                 ply.TakeHit();
                 //Destroy(other.gameObject);

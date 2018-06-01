@@ -35,7 +35,7 @@ public class shotScriptFire : MonoBehaviour {
 	//destroys any object that is not player when hit
 	void OnTriggerEnter2D(Collider2D other)
 	{
-		if (other.tag == "FireEnemy")
+		if (other.CompareTag("FireEnemy"))
 		{
 			Destroy(other.gameObject);
 			Destroy(gameObject);

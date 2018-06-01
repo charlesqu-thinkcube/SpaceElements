@@ -1,13 +1,16 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\playerScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\WinConditionScript.cs">
     <Files>
-      <File FileName="..\..\games production\games-production\GAM20001_UnityProject\Assets\Scripts\GameOverScript.cs" Line="3" Column="1" />
+      <File FileName="..\..\games production\games-production\GAM20001_UnityProject\Assets\Scripts\GameOverScript.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\ScoreScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\enemyScript.cs" Line="5" Column="21" />
-      <File FileName="..\..\games production\games-production\GAM20001_UnityProject\Assets\Scripts\GameplayController.cs" Line="108" Column="3" />
+      <File FileName="Assets\Scripts\enemyScript.cs" Line="1" Column="1" />
+      <File FileName="..\..\games production\games-production\GAM20001_UnityProject\Assets\Scripts\GameplayController.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\playerScript.cs" Line="123" Column="40" />
-      <File FileName="Assets\Scripts\WinConditionScript.cs" Line="19" Column="4" />
+      <File FileName="Assets\Scripts\WinConditionScript.cs" Line="15" Column="68" />
+      <File FileName="Assets\Scripts\shieldScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\enemyShotScript.cs" Line="57" Column="47" />
+      <File FileName="Assets\Scripts\TimerScript.cs" Line="23" Column="9" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

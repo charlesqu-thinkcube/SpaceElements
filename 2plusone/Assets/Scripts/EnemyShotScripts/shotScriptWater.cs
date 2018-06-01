@@ -35,7 +35,7 @@ public class shotScriptWater : MonoBehaviour {
 	//destroys any object that is not player when hit
 	void OnTriggerEnter2D(Collider2D other)
 	{
-		if (other.tag == "WaterEnemy")
+		if (other.CompareTag("WaterEnemy"))
 		{
 			Destroy(other.gameObject);
 			Destroy(gameObject);

@@ -7,15 +7,13 @@ public class shieldScript : MonoBehaviour {
     public int health;
 	// Use this for initialization
 	void Start () {
-        health = 10;
 	}
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Bullet")
+		if (other.gameObject.CompareTag("Bullet"))
         {
             Destroy(other.gameObject);
-            health -= 1;
         }
     }
 

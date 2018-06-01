@@ -120,7 +120,7 @@ public class playerScript : MonoBehaviour {
                 //Invulnerable();
                 StartCoroutine(RemoveHeart(heart1.gameObject));
                 //gameOver.gameObject.SetActive(true);
-                StartCoroutine(GameOver());
+                GameOverScene("GameOver");
                 break;
 
         }
@@ -131,6 +131,13 @@ public class playerScript : MonoBehaviour {
             invincible = true;
             StartCoroutine(ExecuteAfterTime());
     }
+
+	public void GameOverScene(string level)
+	{
+		GameOver();
+		PlayerPrefs.SetInt("score", ScoreScript.Instance.score);
+		Application.LoadLevel(level);
+	}
 
     IEnumerator ExecuteAfterTime()
     {
@@ -151,9 +158,9 @@ public class playerScript : MonoBehaviour {
    
     IEnumerator GameOver()
     {
+
         //gameOver.gameObject.SetActive(true);
         yield return new WaitForSeconds(2f);
         //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-		SceneManager.LoadScene("GameOver");
     }
 }

@@ -7,6 +7,8 @@ public class enemyShotScript : MonoBehaviour {
 	public int speed = -5;
 	private Vector3 target;
     private Rigidbody2D rigid2D;
+	//public GameObject CollisionParticle;
+	//public GameObject FireParticle;
 
 	// Use this for initialization
 	void Start()
@@ -25,15 +27,23 @@ public class enemyShotScript : MonoBehaviour {
         //gameOver.gameObject.SetActive(false);
     }
 
-    //void OnCollisionEnter2D (Collision2D other)
+    //void Awake()
     //{
+		//ParticleSystem ps = temp.GetComponent<ParticleSystem>();
+    	//FireParticle.SetActive(true);
+    //}
+
+    void OnCollisionEnter2D (Collision2D other)
+    {
+    	//DoStuff(other.gameObject);
+	//	DoStuff();
     //if (other.gameObject.tag == "Player")
     //{
     //Destroy(other.gameObject);
     //Destroy(this.gameObject);
     // health -= 1;
-    //}
-    //}
+   // }
+    }
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -59,7 +69,6 @@ public class enemyShotScript : MonoBehaviour {
 	}
 	// Update is called once per frame
 	void Update () {
-
         /*
         switch (health)
         {
@@ -87,4 +96,18 @@ public class enemyShotScript : MonoBehaviour {
         }
         */
     }
+
+    /*
+	void DoStuff(GameObject other)
+    {
+		if(CollisionParticle != null)
+		{
+			GameObject temp = Instantiate(CollisionParticle, transform.position, Quaternion.identity);
+			ParticleSystem ps = temp.GetComponent<ParticleSystem>();
+			ps.Play();
+			Destroy(temp, ps.main.duration+1f);
+		}
+		Destroy((Object)this.gameObject);
+    }
+    */
 }

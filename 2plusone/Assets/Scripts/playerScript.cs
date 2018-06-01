@@ -14,7 +14,7 @@ public class playerScript : MonoBehaviour {
 	public GameObject bulletEarth;
 	//public GameObject spaceship;
 	private Rigidbody2D spaceship;
-    public GameObject heart1, heart2, heart3, gameOver;
+    public GameObject heart1, heart2, heart3;
     public int health = 3;
     public Animator animDie;
     public bool invincible;
@@ -52,6 +52,7 @@ public class playerScript : MonoBehaviour {
 			spaceship.velocity = new Vector3(0, 0, 0);
 		}
 
+		/*
 		//fires water bullet
 		if (Input.GetKeyDown(KeyCode.Alpha1))
 		{
@@ -80,6 +81,7 @@ public class playerScript : MonoBehaviour {
 
 			//Instantiate(bullet, transform.position, Quaternion.identity);
 		}
+		*/
 
 		if (Input.GetKeyDown(KeyCode.Space))
 		{
@@ -149,8 +151,9 @@ public class playerScript : MonoBehaviour {
    
     IEnumerator GameOver()
     {
-        gameOver.gameObject.SetActive(true);
+        //gameOver.gameObject.SetActive(true);
         yield return new WaitForSeconds(2f);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+		SceneManager.LoadScene("GameOver");
     }
 }

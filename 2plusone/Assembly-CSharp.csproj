@@ -64,7 +64,9 @@
      <Compile Include="Assets\Scripts\NextButton2.cs" />
      <Compile Include="Assets\Scripts\NextButton3.cs" />
      <Compile Include="Assets\Scripts\PlayButton.cs" />
+     <Compile Include="Assets\Scripts\ScoreScript.cs" />
      <Compile Include="Assets\Scripts\Spawner.cs" />
+     <Compile Include="Assets\Scripts\TimerScript.cs" />
      <Compile Include="Assets\Scripts\Touchable.cs" />
      <Compile Include="Assets\Scripts\TransparentScript.cs" />
      <Compile Include="Assets\Scripts\buttonSound.cs" />

@@ -39,6 +39,7 @@ public class shotScriptEarth : MonoBehaviour {
 		{
 			Destroy(other.gameObject);
 			Destroy(gameObject);
+			ScoreScript.Instance.score += 1;
 		}
 	}
 	
